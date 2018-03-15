@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Главный металл 1.0",
+    "number": "6127-26-8071-E",
+    "braQnd": "ETP",
+    "where": "D355A, D155C",
+    "weight": "4.90",
+    "price": "14372",
+    "amount": "2"
+  },
+  {
+    "title": "Вкладыш шатун. 3969562",
+    "number": "6732-31-3411",
+    "braQnd": "ETP",
+    "where": "PC200",
+    "weight": "0.06",
+    "price": "373",
+    "amount": "48"
+  },
+  {
+    "title": "Направляющая втулка (4N3667)",
+    "number": "8N8847",
+    "braQnd": "KMP",
+    "where": "D9H",
+    "weight": "0.22",
+    "price": "340",
+    "amount": "8"
+  },
+  {
+    "title": "Cедло выпускного клапана",
+    "number": "6150-11-1320",
+    "braQnd": "ETP",
+    "where": "PC400, D85A",
+    "weight": "0.3",
+    "price": "452",
+    "amount": "12"
+  },
+  {
+    "title": "Вал коленчатый 6735-01-1310",
+    "number": "6736-31-1100",
+    "braQnd": "ETP",
+    "where": "PC200",
+    "weight": "58.97",
+    "price": "60202",
+    "amount": "1"
+  },
+  {
+    "title": "Вал механизма отбора мощности",
+    "number": "195-38-11210",
+    "braQnd": "ETP",
+    "where": "D355A, D355C",
+    "weight": "7.20",
+    "price": "25980",
+    "amount": "1"
+  },
+  {
+    "title": "Вал помпы",
+    "number": "6127-61-1313",
+    "braQnd": "ETP",
+    "where": "D355A, D155C",
+    "weight": "0.96",
+    "price": "4120",
+    "amount": "6"
+  },
+  {
+    "title": "Вклад. шатун. 6138-37-3050 (1SET=6PCS",
+    "number": "6138-37-3040",
+    "braQnd": "ETP",
+    "where": "S6D105",
+    "weight": "0.90",
+    "price": "2992",
+    "amount": "2"
+  },
+  {
+    "title": "Вклад.шат.STD 1SET=6PCS 6207-31-3600",
+    "number": "6207-31-3300-E",
+    "braQnd": "ETP",
+    "where": "PC200",
+    "weight": "0.54",
+    "price": "3057",
+    "amount": "5"
+  },
+  {
+    "title": "Вклад.шатун.0,25 1SET=6PCS ,-3600",
+    "number": "6207-39-3300-E",
+    "braQnd": "ETP",
+    "where": "PC200",
+    "weight": "0.60",
+    "price": "3169",
+    "amount": "1"
+  },
+  {
+    "title": "Вкладыш коренной",
+    "number": "8973720761",
+    "braQnd": "ISUZU",
+    "where": "ZX240LC, ZX200LC, ZX270LC",
+    "weight": "0.25",
+    "price": "1106",
+    "amount": "7"
+  },
+  {
+    "title": "Вкладыш коренной 0,5",
+    "number": "7S8308",
+    "braQnd": "KMP",
+    "where": "D9H",
+    "weight": "6.00",
+    "price": "24977",
+    "amount": "1"
+  },
+  {
+    "title": "Вкладыш коренной STD ( 4W5738 )",
+    "number": "2323233",
+    "braQnd": "KMP",
+    "where": "D7H",
+    "weight": "0.28",
+    "price": "588",
+    "amount": "7"
+  },
+  {
+    "title": "Вкладыш коренной STD 4W5492, 2170390",
+    "number": "3215746",
+    "braQnd": "KMP",
+    "where": "CAT D9N",
+    "weight": "0.60",
+    "price": "1178",
+    "amount": "4"
+  },
+  {
+    "title": "Вкладыш шатунный (0,25) 9M4871",
+    "number": "1N4337",
+    "braQnd": "KMP",
+    "where": "D9H",
+    "weight": "0.50",
+    "price": "1927",
+    "amount": "12"
+  }
+]

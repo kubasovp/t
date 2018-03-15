@@ -1,0 +1,38 @@
+[
+  {
+    "href": "http://185.125.219.111:3000/engine-spare-parts",
+    "class": "prod-item i1",
+    "img": "img/main/mp1-c.jpg",
+    "title": "Запчасти для двигателя"
+  },
+  {
+    "href": "http://185.125.219.111:3000/cutting-tool",
+    "class": "prod-item i2",
+    "img": "img/main/mp2-c.jpg",
+    "title": "Режущий инструмент"
+  },
+  {
+    "href": "http://185.125.219.111:3000/rvd",
+    "class": "prod-item i3",
+    "img": "img/main/mp3-c.jpg",
+    "title": "РВД"
+  },
+  {
+    "href": "http://185.125.219.111:3000/undercarriage",
+    "class": "prod-item i4",
+    "img": "img/main/mp4-c.jpg",
+    "title": "Ходовая группа"
+  },
+  {
+    "href": "http://185.125.219.111:3000/oil",
+    "class": "prod-item i5",
+    "img": "img/main/mp5-c.jpg",
+    "title": "Масла и смазки"
+  },
+  {
+    "href": "http://185.125.219.111:3000/drilling-equipment",
+    "class": "prod-item i6",
+    "img": "img/main/mp6-c.jpg",
+    "title": "Буровое оборудование"
+  }
+]

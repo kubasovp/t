@@ -1,0 +1,65 @@
+[
+  {
+    "href": "#",
+    "class": "brand-item bi1",
+    "img": "img/brands/technopower-text.jpg",
+    "title": "TechnoPower",
+    "about": "Муфты, фитинги, БРС, рукава высокого давлени"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi2",
+    "img": "img/brands/dunlop.svg",
+    "title": "Dunlop",
+    "about": "Премиальные гидравлические рукава из Европы"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi3",
+    "img": "img/brands/uniflex.jpg",
+    "title": "Uniflex",
+    "about": "Оборудование для произ&shy;водства РВД"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi5",
+    "img": "img/brands/esco.jpg",
+    "title": "ESCO",
+    "about": "Коронки, адаптера, межзубьевая защита для карьерной техники"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi6",
+    "img": "img/brands/wikov.png",
+    "title": "Wikov",
+    "about": "Промышленные редукторы и высоко&shy;точные шестерни"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi6",
+    "img": "img/brands/contitech.png",
+    "title": "Continental ContiTech",
+    "about": "Гидравлические рукава — премиальный сегмент"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi6",
+    "img": "img/brands/total.png",
+    "title": "Total",
+    "about": "Масла и смазки для горно&shy;промыш&shy;лен&shy;ного сегмента"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi6",
+    "img": "img/brands/bontyre.png",
+    "title": "Bontyre",
+    "about": "Восттановление крупногабаритных шин"
+  },
+  {
+    "href": "#",
+    "class": "brand-item bi6",
+    "img": "img/brands/mincon.jpg",
+    "title": "Mincon",
+    "about": "Пневмоударники, буровые коронки лучшего в мире качества"
+  }
+]

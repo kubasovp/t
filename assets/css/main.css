@@ -1,0 +1,402 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+  margin: 0 auto;
+  padding: 0 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #fff;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+}
+a {
+  color: #01579b;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(1,87,155,0.3);
+}
+a:hover {
+  color: #FF6D00;
+  border-bottom: 1px solid rgba(255,109,0,0.3);
+}
+input {
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,0.35);
+}
+.wrap {
+  margin: 10px 0;
+}
+/* Header------------------------------------------------------------------------------------------------------------------------------------- */
+
+.header.wrap {
+  position: relative;
+  margin-top: 0;
+  padding-top: 10px;
+}
+.logo {
+  float: left;
+  width: calc(100% / 3 * 2);
+  padding-top: 3px;
+  /*background-color: #ccc;*/
+}
+.logo a {
+  border-bottom: none;
+}
+.logo img {
+  width: 192px;
+}
+.header-contacts {
+  float: left;
+  width: calc(100% / 3 * 2);
+  /*background-color: #aaa;*/
+}
+.header-contacts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-contacts li + li {
+  display: none;
+}
+.header-contacts h2, .header-contacts h3 {
+  display: inline-block;
+  margin: 0;
+}
+.header-contacts h2 {
+  font-size: 164%;
+}
+.header-contacts a {
+  color: #858489;
+  text-decoration: none;
+  border: none;
+}
+.user {
+  width: calc(100% / 3);
+  height: 100px;
+  overflow: hidden;
+  /*background-color: #ddd;*/
+}
+.user-stat {
+  box-sizing: border-box;
+}
+.user-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 96%;
+}
+.user-nav li {
+  display: none;
+  width: 50%;
+  box-sizing: border-box;
+}
+.user-nav li:first-child {
+  display: inline-block;
+}
+/* Menu--------------------------------------------------------------------------------------------------------------------------------------- */
+
+.menu.wrap {
+  margin-bottom: 0;
+}
+.nav {
+  margin: 0;
+  padding: 10px 0;
+  clear: both;
+  list-style: none;
+  overflow: hidden;
+  border-top: 1px solid rgba(0,0,0,0.15);
+  /*border-bottom: 1px solid rgba(0,0,0,0.15);*/
+  /*background-color: #ccc;*/
+}
+.nav li {
+  float: left;
+  width: calc(100% / 3 - 3px);
+  margin-bottom: 5px;
+}
+
+/* Forms-------------------------------------------------------------------------------------------------------------------------------------- */
+
+.forms.wrap {
+  margin-top: 0;
+  
+}
+.forms {
+}
+.search-form {
+  padding: 10px;
+  overflow: hidden;
+  background: rgba(1,87,155,0.3);
+  border: 1px solid rgba(0,0,0,0.15);
+}
+.search-form input[type="text"] {
+  width: calc(100% - 155px);
+  margin-right: 5px
+  
+}
+.search-form input[type="submit"] {
+  display: inline-block;
+  width: 150px;
+  background-color: #01579b;
+  color: #fff;
+}
+
+.price-form {
+  display: none;
+}
+
+::-webkit-input-placeholder {font-size: 90%; color:#555; transition: opacity 0.9s ease;}
+::-moz-placeholder          {font-size: 90%; color:#555; transition: opacity 0.9s ease;} /* Firefox 19+ */
+:-moz-placeholder           {font-size: 90%; color:#555; transition: opacity 0.9s ease;} /* Firefox 18- */
+:-ms-input-placeholder      {font-size: 90%; color:#555; transition: opacity 0.9s ease;}
+
+:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.9s ease;}
+:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.9s ease;}
+:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.9s ease;}
+:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.9s ease;}
+
+/* Product------------------------------------------------------------------------------------------------------------------------------------ */
+
+.prod-item {
+  display: block;
+  float: left;
+  width: 50%;
+  border-bottom: none;
+  background-color: #fff;
+}
+.prod-item img {
+  display: block;
+  width: 100%;
+  max-width: 206px;
+  margin: auto;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.prod-item h3 {
+  font-size: 100%;
+  font-weight: normal;
+  text-align: center;
+}
+.prod-item:hover {
+  border-bottom: none;
+}
+.prod-item:hover img {
+  border-color: #FF6D00;
+}
+
+/* Brands------------------------------------------------------------------------------------------------------------------------------------- */
+
+.brands.wrap {
+  border-top: 1px solid rgba(0,0,0,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.brand-item {
+  display: block;
+  float: left;
+  width: calc(50% - 2px);
+  height: 130px;
+  margin: 0 0 4px 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-bottom: none;
+  background-color: #fff;
+  text-align: center;
+  font-size: 96%;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+.brand-item:nth-child(even) {
+  margin-right: 2px;
+}
+.brand-item:nth-child(odd) {
+  margin-left: 2px;
+}
+.brand-item:first-child {
+  width: 100%;
+  margin-left: 0;
+  text-align: center;
+}
+.brand-item:hover {
+  border-bottom: none;
+}
+.brand-item img {
+  display: block;
+  max-width: 164px;
+  max-height: 50px;
+  margin: 0 auto;
+}
+.brand-item h3 {
+  display: none;
+}
+img[src*="technopower"] { margin-top: 25px; }
+img[src*="dunlop"] { margin-top: 10px; }
+img[src*="uniflex"] {  }
+img[src*="clevite"] {  }
+img[src*="esco"] {  }
+img[src*="bradken"] { margin-top: 5px; }
+img[src*="wikov"] { margin: 18px auto 0px; }
+img[src*="contitech"] {  }
+img[src*="total"] { margin: 10px auto 16px; }
+img[src*="bontyre"] { margin: 15px auto 27px; }
+img[src*="mincon"] {  }
+
+/* Company------------------------------------------------------------------------------------------------------------------------------------ */
+
+.company.wrap {
+  clear: both;
+}
+
+
+/* 550px-------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen  and (min-width : 550px) {
+
+  .nav li {
+    width: auto;
+    margin-right: 20px;
+  }
+  .prod-item {
+    width: calc(100% / 3);
+  }
+  .brand-item {
+    width: calc(100% / 3);
+  }
+  .brand-item:nth-child(-n+2) {
+    width: calc(50% - 2px);
+    text-align: center;
+  }
+  .brand-item:nth-child(even) {
+    margin-left: 2px;
+    margin-right: 0;
+  }
+  .brand-item:nth-child(odd) {
+    margin-right: 2px;
+  }
+  img[src*="technopower"] {
+    margin: 25px auto 20px;
+  }
+  img[src*="dunlop"] {
+    margin: 25px auto 10px;
+  }
+  img[src*="contitech"] {
+    margin: 18px auto 0px;
+  }
+  img[src*="mincon"] {
+    margin: 6px auto 0px;
+  }
+}
+
+/* 640px-------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen  and (min-width : 640px) {
+  .logo,
+  .header-contacts,
+  .user {
+    width: calc(100% / 3);
+  }
+  .header-contacts {
+    padding: 0 6px 0 0;
+    box-sizing: border-box;
+    text-align: right;
+  }
+  .header-contacts li + li {
+    display: block;
+    padding-right: 3px;
+  }
+  .user-stat,
+  .user-nav {
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+  }
+  .prod-item {
+    width: calc(100% - 412px);
+  }
+  .i1,.i3,.i4,.i6 {
+    width: 206px;
+  }
+}
+
+/* 1024px-------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen  and (min-width : 1024px) {
+  .logo {
+    width: 30%;
+  }
+  .header-contacts {
+    width: 30%;
+  }
+  .user {
+    width: 40%;
+  }
+  .user-stat {
+    float: left;
+    width: 40%;
+  }
+  .user-nav {
+    float: left;
+    width: 60%;
+  }
+  .user-nav li {
+    display: inline-block;
+  }
+  .nav li {
+    width: auto;
+    margin-right: 25px;
+  }
+  .search-form {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+    border-right-width: 0;
+  }
+  .price-form {
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-left-width: 0;
+    background-color: rgba(0,0,0,0.15);
+  }
+  .price-form input[type="text"] {
+    float: left;
+    width: calc(25% - 5px);
+    margin-right: 5px;
+  }
+  .price-form input[type="submit"] {
+    float: left;
+    width: 25%;
+    margin-right: 0;
+    background-color: rgba(0,0,0,0.15);
+  }
+  .product.wrap {
+    width: calc(60%);
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .prod-item img {
+    width: 100%;
+    max-width: 206px;
+  }
+  .brands.wrap {
+    width: calc(40%);
+    float: left;
+    border: none;
+    padding-left: 11px;
+    box-sizing: border-box;
+  }
+  img[src*="esco"] {
+    width: 100%;
+  }
+  img[src*="bradken"] {
+    margin-top: 18px;
+  }
+  img[src*="total"] {
+    width: 100%;
+    margin-top: 23px;
+  }
+}
